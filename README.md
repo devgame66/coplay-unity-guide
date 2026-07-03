@@ -1,5 +1,10 @@
 # Coplay Unity AI 开发完整指南
 
+## 🔗 最新安装链接（快速入口）
+
+- Coplay Unity Plugin（beta）：`https://github.com/CoplayDev/coplay-unity-plugin.git#beta`
+- MCP for Unity（main）：`https://github.com/CoplayDev/unity-mcp.git?path=/MCPForUnity#main`
+
 > **CoplayDev** 旗下目前有**两套独立的 Unity AI 工具**，安装地址相似，但定位完全不同。  
 > 本文档覆盖两者的完整安装流程、核心区别对比与最佳实践。
 
@@ -52,7 +57,7 @@
 
 | | 详情 |
 |---|---|
-| ✅ **优点** | 完全免费开源（MIT），无需账号；支持任意 MCP 兼容客户端（Claude/Cursor/VS Code/Gemini 等）；本地运行，数据不出外网；47 个细粒度 MCP 工具；活跃社区（11k+ stars）；支持多 Unity 实例 |
+| ✅ **优点** | 完全免费开源（MIT），无需账号；支持任意 MCP 兼容客户端（Claude/Cursor/VS Code/Gemini 等）；本地运行，数据不出外网；47 个细粒度 MCP 工[...] |
 | ❌ **缺点** | 需要额外安装 Python 3.10+ 和 uv；需要配置 AI 客户端 JSON；首次配置略复杂；操作窗口在外部 AI 工具里，不在 Unity 内 |
 | 🎯 **适合谁** | 已在用 Cursor/Claude/VS Code 的开发者；希望用自己的 AI 账号；注重数据安全或离线场景；喜欢 DIY 配置的开发者 |
 
@@ -60,7 +65,7 @@
 
 | | 详情 |
 |---|---|
-| ✅ **优点** | 安装极简，无需 Python/uv；AI 窗口内嵌 Unity，操作不切换软件；多模型支持（GPT-4.1/Gemini/Claude/Grok）；支持 Pipelines（录制回放操作序列）；Context-Aware（理解项目结构） |
+| ✅ **优点** | 安装极简，无需 Python/uv；AI 窗口内嵌 Unity，操作不切换软件；多模型支持（GPT-4.1/Gemini/Claude/Grok）；支持 Pipelines（录制回放操作序列��[...] |
 | ❌ **缺点** | 需要注册账号；AI 推理依赖云端，必须联网；Coplay 品牌已被收购，正在向 Aura 迁移中，稳定性存在不确定性；功能控制权在平台方 |
 | 🎯 **适合谁** | 不想折腾配置的开发者；习惯在 Unity 内操作；需要多模型灵活切换；可以接受云端服务和账号体系 |
 
